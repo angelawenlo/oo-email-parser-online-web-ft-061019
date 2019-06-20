@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    list_of_emails << emails
+    @list_of_emails << emails
   end
 
 
