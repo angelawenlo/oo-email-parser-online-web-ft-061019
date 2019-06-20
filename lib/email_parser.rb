@@ -4,10 +4,10 @@
 # or whitespace (' ').
 require 'pry'
 class EmailParser
-  attr_accessor :emails_string
+  attr_accessor :emails
 
   def initialize(emails_string)
-    @emails_string = emails_string
+    @emails = emails_string
   end
 
   def parse
