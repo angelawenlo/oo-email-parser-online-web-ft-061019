@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse
-    parser.map do |email
+    parser.map do |email|
     end
   end
 
