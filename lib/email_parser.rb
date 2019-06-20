@@ -4,7 +4,7 @@
 # or whitespace (' ').
 require 'pry'
 class EmailParser
-  attr_accessor :emails
+  attr_accessor :email
   @@all = []
 
   def initialize(email)
