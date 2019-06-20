@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-    emails_string.each do |email|
+    @emails.each do |email|
       binding.pry
     end
   end
