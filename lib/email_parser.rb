@@ -14,7 +14,6 @@ class EmailParser
     emails_string.map do |email|
 
     end
-
   end
 
 
