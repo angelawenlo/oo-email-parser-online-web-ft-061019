@@ -8,7 +8,7 @@ class EmailParser
 
   def initialize(emails)
     @emails = emails
-    list_of_emails = []
+    @list_of_emails = []
   end
 
   def parse
