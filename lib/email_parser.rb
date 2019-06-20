@@ -12,6 +12,7 @@ class EmailParser
 
   def parse
     emails_string.split(", ")
+    new_array = []
   end
 
 
