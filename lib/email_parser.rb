@@ -12,7 +12,7 @@ class EmailParser
 
   def parse
     emails_string.map do |email|
-
+      binding.pry
     end
   end
 
