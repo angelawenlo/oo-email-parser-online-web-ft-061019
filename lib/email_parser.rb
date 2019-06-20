@@ -7,7 +7,7 @@ class EmailParser
   attr_accessor :emails
 
   def initialize(emails)
-    binding.pry
+    email = []
   end
 
   def parse
