@@ -11,8 +11,10 @@ class EmailParser
   end
 
   def parse
-    emails_string.split(", ")
-    new_array = []
+    emails_string.map do |email|
+
+    end
+
   end
 
 
