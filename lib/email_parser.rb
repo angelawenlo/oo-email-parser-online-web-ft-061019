@@ -11,8 +11,7 @@ class EmailParser
   end
 
   def parse
-    emails.map do |email|
-      binding.pry
+    
     end
   end
 
