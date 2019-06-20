@@ -5,14 +5,9 @@
 require 'pry'
 class EmailParser
   attr_accessor :emails_string
-  @@all = []
-
+  
   def initialize(emails_string)
     @emails_string = emails_string
-  end
-
-  def self.all
-    @@all
   end
 
   def parse
